@@ -1,0 +1,32 @@
+/* Content Wrap
+###########################################################################  */
+
+.content-wrap{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--light);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrap:nth-child(even) {
+  background-color: var(--lighter);
+}
+
+
+/* Card
+###########################################################################  */
+
+.card{
+  width: 50%;
+  background-color: var(--lightest);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  box-shadow: var(--n-shadow-l);
+}
+
+.card figcaption{
+  padding: var(--l) var(--m) var(--xl) var(--m);
+}

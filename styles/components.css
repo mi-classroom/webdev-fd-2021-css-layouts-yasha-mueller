@@ -1,0 +1,25 @@
+/* Meta Infos
+###########################################################################  */
+
+.meta-info{
+  padding-top: var(--l);
+  padding-bottom: var(--xl);
+}
+
+.meta-info:after{
+  content:'.';
+  display: none;
+  clear: both;
+}
+
+.meta-info dt{
+  font-weight: var(--fw-bold);
+  float: left;
+  margin-right: var(--xxs);
+}
+
+.meta-info dt:after{
+  content: ':';
+}
+
+

@@ -1,0 +1,57 @@
+*{
+  /* TODO: Zeigen */
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--ff-normal);
+  font-weight: var(--fw-normal);
+  font-size: var(--m);
+  line-height: var(--lh-normal);
+  color: var(--color-text);
+  hyphens: auto;
+  background-color: var(--lightest);
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  color: var(--color-headline);
+  hyphens: none;
+}
+
+h1{
+  font-size: var(--xxxl);
+  padding-top: var(--xxxl);
+  padding-bottom: var(--xxxl);
+  line-height: var(--lh-tight);
+  color: var(--dark);
+  padding-left: var(--m);
+}
+
+h2{
+  padding-top: var(--m);
+  font-size: var(--xxl);
+  color: var(--color-accent);
+  line-height: var(--lh-tight);
+  margin-bottom: var(--xxl)
+}
+
+h3{
+  padding-top: var(--xl);
+  font-size: var(--xl);
+  font-weight: normal;
+  margin-bottom: var(--xl);
+}
+
+img{
+  width: 100%;
+}
+
+
+
+
